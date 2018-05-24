@@ -12,8 +12,8 @@ for(i = 1;i <= 3;i+=1)
 		roomlist[j - 1 + 3*(i-1)] = temp;
 	}
 }
-
-randomize();
+scr_makeMaze();
+/*randomize();
 var _index = irandom_range(0,8);//随机选择一个初始房间
 show_debug_message(_index)
 cRoom = roomlist[_index];
@@ -42,13 +42,7 @@ for(i=0;i<9;i+=1)
 	}
 }
 
-if(actived_room != 9)
-{
-	repeat(9-actived_room)
-	{
-		
-	}
-}
+
 
 /*
 repeat(8)
