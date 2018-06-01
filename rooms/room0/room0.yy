@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "b1be731c-2a9f-490e-959e-31e16673bb3a"
+        "81010000-bcb2-46f0-8084-56664dde5fbd",
+        "282144f4-660e-4e65-ad0a-a76efc172c00"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3C0A32B2","id": "b1be731c-2a9f-490e-959e-31e16673bb3a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C0A32B2","objId": "a0156210-7da3-4ff0-bf82-ac6f987e9abb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 32}
+{"name": "inst_350E9FF0","id": "81010000-bcb2-46f0-8084-56664dde5fbd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_350E9FF0","objId": "50a99f38-fdb3-4b91-b9e4-1337f86dae80","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 64},
+{"name": "inst_6BA7C6B4","id": "282144f4-660e-4e65-ad0a-a76efc172c00","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6BA7C6B4","objId": "a0156210-7da3-4ff0-bf82-ac6f987e9abb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 32}
             ],
             "layers": [
 
@@ -64,8 +66,8 @@
                 "SerialiseHeight": 4,
                 "SerialiseWidth": 4,
                 "TileSerialiseData": [
-                    24,24,2,2,
-                    24,24,2,2,
+                    2,2,2,2,
+                    2,2,2,2,
                     2,2,2,2,
                     2,2,2,2
                 ]

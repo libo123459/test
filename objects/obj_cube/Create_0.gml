@@ -10,4 +10,6 @@ left = 0;
 right = 0;
 full = false;
 depth = -1;
-style = 0;
+level = 0;
+image_speed = 0;
+image_index = 0;

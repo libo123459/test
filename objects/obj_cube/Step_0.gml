@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_initCubes();
-//scr_board_Zones();
-
+if(place_meeting(x,y,obj_card))
+{
+	image_index = 1;
+} else {
+	image_index = 0;
+}

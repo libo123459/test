@@ -37,11 +37,14 @@ for(i=0;i<empty_room;i+=1)
 {
 	cRoom = empty[i];
 	var empty_dir = FindDir(cRoom);
-	//show_debug_message("door's dir is");
-	//show_debug_message(empty_dir);
-	scr_buildDoor(cRoom,empty_dir);
-	cRoom.actived = true;
-	cRoom = GetNextRoom(cRoom,empty_dir);
-	cRoom.actived = true;
+	if(empty_dir != 0)//该房间可以开门
+	{		
+		//show_debug_message("door's dir is");
+		//show_debug_message(empty_dir);
+		scr_buildDoor(cRoom,empty_dir);
+		cRoom.actived = true;
+		cRoom = GetNextRoom(cRoom,empty_dir);
+		cRoom.actived = true;
+	}	
 }
 		
