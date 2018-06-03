@@ -3,6 +3,7 @@
 num = 0;
 a = 0;
 b = 0;
+is_acting = 0;
 actived = false;
 up = 0;
 down = 0;
@@ -13,3 +14,4 @@ depth = -1;
 level = 0;
 image_speed = 0;
 image_index = 0;
+group_num = 0;
