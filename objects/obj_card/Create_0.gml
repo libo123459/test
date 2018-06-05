@@ -5,3 +5,4 @@ is_dragging = false;
 prev_mouse_x = 0;
 prev_mouse_y = 0;
 block_num = 4;
+group_num = 0;
