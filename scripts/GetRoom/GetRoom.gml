@@ -1,2 +1,2 @@
 ///@argument room.num
-return (roomlist[argument0 - 1]);
+return (global.roomlist[argument0 - 1]);

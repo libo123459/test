@@ -1,8 +1,9 @@
 randomize();
-var _index = irandom_range(0,8);//随机选择一个初始房间
+global._index = irandom_range(0,8);//随机选择一个初始房间
 
-var cRoom = roomlist[_index];
-
+var cRoom = global.roomlist[global._index];
+var currentRoom = cRoom;
+var currentMap = global.BigRoomlist[global._index];
 repeat(8)
 {
 	var _dir = FindDir(cRoom);//选择一个方向
@@ -17,15 +18,15 @@ repeat(8)
 	}	
 }
 
-var empty_room = 0;
+empty_room = 0;
 
 for(i=0;i<9;i+=1)
 {
-	if(roomlist[i].actived = false)
+	if(global.roomlist[i].actived = false)
 	{
 		//show_debug_message("empty room is");
 		//show_debug_message(roomlist[i].num);
-		empty[empty_room] = roomlist[i];
+		empty[empty_room] = global.roomlist[i];
 		empty_room += 1;
 	}
 }
@@ -45,6 +46,10 @@ for(i=0;i<empty_room;i+=1)
 		cRoom.actived = true;
 		cRoom = GetNextRoom(cRoom,empty_dir);
 		cRoom.actived = true;
-	}	
+	}
 }
-		
+
+room_goto(currentMap);
+room_instance_add(currentMap,250,250,player)
+
+scr_room_doorPos(currentRoom);

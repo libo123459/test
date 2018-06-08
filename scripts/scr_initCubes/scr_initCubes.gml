@@ -8,5 +8,6 @@ for(i = 1;i <= 3;i+=1)
 		temp.b = i - 1;
 		scr_initDir(temp);
 		cubelist[j - 1 + 3*(i-1)] = temp;
+		show_debug_message(temp.num)
 	}
 }
