@@ -2,7 +2,7 @@ randomize();
 global._index = irandom_range(0,8);//随机选择一个初始房间
 
 var cRoom = global.roomlist[global._index];
-var currentRoom = cRoom;
+var startRoom = cRoom;
 var currentMap = global.BigRoomlist[global._index];
 repeat(8)
 {
@@ -18,7 +18,7 @@ repeat(8)
 	}	
 }
 
-empty_room = 0;
+var empty_room = 0;
 
 for(i=0;i<9;i+=1)
 {
@@ -50,6 +50,7 @@ for(i=0;i<empty_room;i+=1)
 }
 
 room_goto(currentMap);
-room_instance_add(currentMap,250,250,player)
+room_instance_add(currentMap,room_width/2,room_height/2,player)
 
-scr_room_doorPos(currentRoom);
+scr_room_creat_door(startRoom);
+scr_room_creat_things(currentMap)

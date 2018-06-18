@@ -3,4 +3,5 @@
 if(place_meeting(x,y,player))
 {
 	scr_room_enter(self);
+	
 }

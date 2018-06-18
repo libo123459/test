@@ -1,2 +1,2 @@
 ///@arg cube.num
-return (cubelist[argument0 - 1]);
+return (global.cubelist[argument0 - 1]);

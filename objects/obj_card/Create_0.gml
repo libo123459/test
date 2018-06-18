@@ -11,3 +11,10 @@ style = irandom_range(1,3);
 block_num = card_blocknum(style);
 card_get_spr(style);
 
+bullet_num = 0;
+monster_num = 0;
+monster_level = 0;
+monster_style = 0;
+boss = 0;
+trap_num = 0;
+trap_style = 0;

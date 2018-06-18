@@ -16,3 +16,12 @@ level = 0;
 image_speed = 0;
 image_index = 0;
 index_num = 0;
+
+bullet_num = 0;
+monster_num = 0;
+monster_level = 0;
+monster_style = 0;
+boss = 0;
+trap_num = 0;
+trap_style = 0;
+index_num = 0;

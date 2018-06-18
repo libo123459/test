@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-scr_room_init();
+
 /*for(i = 1;i <= 3;i+=1)
 {
 	for(j = 1;j<=3;j+=1)

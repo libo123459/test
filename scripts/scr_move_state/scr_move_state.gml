@@ -1,9 +1,6 @@
 scr_getinput();
 var flipped = (mouse_x > x)*2 - 1;
 
-
-
-
 if(xaxis == 0 and yaxis == 0)
 {
 	len = 0;
@@ -20,7 +17,13 @@ if(xaxis == 0 and yaxis == 0)
 	if(dash_key)
 	{
 		image_index = 0;
-		image_xscale = xaxis;
+		if(xaxis != 0)
+		{
+			image_xscale = xaxis;
+		} else {
+			image_xscale = image_xscale;
+		}
+		
 		state = scr_dash_state;	
 	
 	//alarm[2] = dash_time;

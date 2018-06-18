@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @room的数据层
 // You can write your code in this editor
 num = 0;
 a = 0;
@@ -9,8 +9,8 @@ down = 0;
 left = 0;
 right = 0;
 full = false;
-arrived = false;
-depth = -1;
+arrived = false;//防止房间重复加载物件
+
 //以下为附加给房间的特效数据
 bullet_num = 0;
 monster_num = 0;
