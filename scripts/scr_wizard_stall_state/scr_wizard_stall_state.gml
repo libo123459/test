@@ -1,15 +1,6 @@
 
-switch(type)
-{
-	case 2:
-	sprite_index = spr_wizard_b;
-	image_speed = 0.5;
-	break;
-	case 1:
-	sprite_index = spr_wizard_w;
-	image_speed = 0.5;
-	break;
-}
+sprite_index = spr_wizard
+image_speed = 0.8;
 
 if(alarm[1]<=0)
 {

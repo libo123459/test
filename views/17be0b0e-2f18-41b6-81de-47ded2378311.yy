@@ -10,7 +10,8 @@
         "ba55c994-c564-429b-baa6-09e1c46895aa",
         "55656c7e-7235-4926-9cb0-9f5e3e9f6134",
         "aa50c030-c686-40a6-83a7-1a49a118aa39",
-        "ef7b0c20-de6e-4ca9-806c-a4f4e38f2e48"
+        "ef7b0c20-de6e-4ca9-806c-a4f4e38f2e48",
+        "d97837c8-59b7-4314-ada5-75f16bc0fa22"
     ],
     "filterType": "GMSprite",
     "folderName": "bullet",

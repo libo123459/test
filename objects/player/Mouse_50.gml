@@ -16,12 +16,6 @@ if(state != scr_dash_state )
 			audio_play_sound(audio_gun,1,false);
 			
 		}
-		if(bullet_type[bullet_remain - 1] == 2)
-		{
-			instance_create_layer(x,y,"Instances",obj_bullet2);
-			instance_create_layer(x,y,"Instances",obj_gunfire2);
-			audio_play_sound(audio_gun,1,false);
-		}
 		
 		alarm[0] = bullet_cooldown;
 		bullet_remain -= 1;

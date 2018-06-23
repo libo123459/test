@@ -4,7 +4,7 @@ if(instance_exists(player))
 	if(dis < sight)
 	{
 		state = scr_wizard_attack_state;
-		
+		image_index = 1;
 	} else {
 		scr_wizard_choose_state();
 	}

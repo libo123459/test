@@ -53,4 +53,4 @@ room_goto(currentMap);
 room_instance_add(currentMap,room_width/2,room_height/2,player)
 
 scr_room_creat_door(startRoom);
-scr_room_creat_things(currentMap)
+//scr_room_creat_things(currentMap)

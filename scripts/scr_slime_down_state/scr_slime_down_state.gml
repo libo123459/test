@@ -1,17 +1,6 @@
+image_speed = 1;
 
-	image_speed = 1.2;
-	switch(type)
-{
-	case 2:
-	sprite_index = spr_slime_w_down;
-		
-	break;
-	
-	case 1:
-	sprite_index = spr_slime_b_down;
-	
-	break;
-}
+sprite_index = spr_slime_w_down;
 
 
 var dir = point_direction(x,y,targetX,targetY);
@@ -24,8 +13,13 @@ if(abs(xoffset)<=1 && abs(yoffset)<=1)
 {
 	
 } else {
-x += hspeed_;
-y += vspeed_;
+	if(image_index >= 9)
+	{		
+		hspeed_ = 0;
+		vspeed_ = 0;
+	}
+	x += hspeed_;
+	y += vspeed_;
 }
 
 
