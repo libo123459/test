@@ -1,4 +1,4 @@
-scr_enemy_check_player();
+scr_Smaster_check_player();
 
 var dir = point_direction(x,y,targetX,targetY);
 hspeed_ = lengthdir_x(speed_,dir);

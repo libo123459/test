@@ -1,5 +1,5 @@
 /// @arg obj_bigdoor
-show_debug_message(global._index)
+
 switch(argument0.nextRoomIndex)
 {
 	case 8:
@@ -30,8 +30,7 @@ switch(argument0.nextRoomIndex)
 	player.y = room_height/2;
 	break;
 }
+var cRoom = GetRoom(global._index+1)
+scr_room_creat_door(cRoom)
 
-scr_room_creat_door(GetRoom(global._index+1));
-var roomname = room_get_name(global.BigRoomlist[global._index]);
-show_debug_message(roomname);
-//scr_room_creat_things(global.BigRoomlist[global._index]);
+

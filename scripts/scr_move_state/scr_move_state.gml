@@ -1,8 +1,8 @@
 scr_getinput();
 var flipped = (mouse_x > x)*2 - 1;
-
+var flipped_y = (mouse_y > x)*2 - 1;
 if(aim_key)
-{
+{	
 	state = scr_aim_state;
 	
 }else{

@@ -2,7 +2,7 @@
 ///@argument string
 //argument0 = room
 //argument1 = "up/down/left/right"
-n = 200;
+
 switch(argument1)
 {
 	case 8 :

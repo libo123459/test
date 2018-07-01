@@ -1,9 +1,9 @@
 
 sprite_index = spr_spider_walk;
-image_speed = 1;
+image_speed = .5;
 var dir = point_direction(x,y,targetX,targetY);
-hspeed_ = lengthdir_x(speed_,dir) *4;
-vspeed_ = lengthdir_y(speed_,dir) *4; 
+hspeed_ = lengthdir_x(speed_,dir);
+vspeed_ = lengthdir_y(speed_,dir); 
 x += hspeed_;
 y += vspeed_;
 xoffset = abs(x - targetX);

@@ -1,1 +1,1 @@
-scr_enemy_check_player();
+scr_Smaster_check_player();

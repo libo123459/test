@@ -24,33 +24,19 @@ for(i=0;i<9;i+=1)
 {
 	if(global.roomlist[i].actived = false)
 	{
-		//show_debug_message("empty room is");
-		//show_debug_message(roomlist[i].num);
 		empty[empty_room] = global.roomlist[i];
 		empty_room += 1;
 	}
 }
-
-//show_debug_message("empty room num is");
-//show_debug_message(empty_room);
-		
 for(i=0;i<empty_room;i+=1)
 {
 	cRoom = empty[i];
 	var empty_dir = FindDir(cRoom);
 	if(empty_dir != 0)//该房间可以开门
-	{		
-		//show_debug_message("door's dir is");
-		//show_debug_message(empty_dir);
+	{	
 		scr_buildDoor(cRoom,empty_dir);
 		cRoom.actived = true;
 		cRoom = GetNextRoom(cRoom,empty_dir);
 		cRoom.actived = true;
 	}
 }
-
-room_goto(currentMap);
-room_instance_add(currentMap,room_width/2,room_height/2,player)
-
-scr_room_creat_door(startRoom);
-//scr_room_creat_things(currentMap)

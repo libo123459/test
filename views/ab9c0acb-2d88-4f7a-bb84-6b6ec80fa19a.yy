@@ -13,7 +13,8 @@
         "5cce1d70-aa9c-4496-9943-c972a2c2a874",
         "fca6f53d-90c5-43c1-a51e-bfd8c0da5eb2",
         "730bc010-79c4-40bc-b2e4-5bfeb9fde498",
-        "1c908a20-7926-411a-a0f1-3a29beae6efc"
+        "1c908a20-7926-411a-a0f1-3a29beae6efc",
+        "36c320bf-b8f3-4ab6-8158-bd0630d92e05"
     ],
     "filterType": "GMScript",
     "folderName": "room",

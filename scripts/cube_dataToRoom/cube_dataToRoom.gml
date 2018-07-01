@@ -1,3 +1,4 @@
+//var _bullet_from_cube = 0;
 for(i = 0;i<9;i+=1)
 {
 	global.roomlist[i].bullet_num = global.cubelist[i].bullet_num;
@@ -8,4 +9,11 @@ for(i = 0;i<9;i+=1)
 	global.roomlist[i].trap_num = global.cubelist[i].trap_num;
 	global.roomlist[i].trap_style = global.cubelist[i].trap_style;
 	global.roomlist[i].bullet_num = global.cubelist[i].bullet_num;
+	global.roomlist[i].monster_atk = global.cubelist[i].monster_atk;
+	global.roomlist[i].monster_num = global.cubelist[i].monster_num;
+	global.roomlist[i].monster_refresh = global.cubelist[i].monster_refresh;
+	
+	//_bullet_from_cube += global.cubelist[i].bullet_num;
 }
+
+//global.bullet_total = _bullet_from_cube + 9;
