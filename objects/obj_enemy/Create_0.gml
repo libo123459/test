@@ -8,8 +8,6 @@ alarm[0] = room_speed;
 sight = 120;
 targetX = 0;
 targetY = 0;
-
-hp = 2 + GetRoom(global._index +1).monster_hp;
+red_hp = GetRoom(global._index +1).monster_hp;
+hp = 2;
 atk = 1 + GetRoom(global._index +1).monster_atk;
-
-hit = false;

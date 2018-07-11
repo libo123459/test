@@ -3,10 +3,11 @@ var flipped = (mouse_x > x)*2 - 1;
 var flipped_y = (mouse_y > x)*2 - 1;
 if(aim_key)
 {	
-	state = scr_aim_state;
-	
-}else{
-	
+	if (energy_remain >0)
+	{
+		state = scr_aim_state;		
+	}
+}else{	
 	if(xaxis == 0 and yaxis == 0)
 	{
 		len = 0;

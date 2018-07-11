@@ -2,8 +2,10 @@
 // You can write your code in this editor
 if(other.exit_open == true)
 {
+	
+	instance_destroy(other)
+	scr_room_clear();
 	room_goto(roomMakeMaze)
-	room_instance_add(roomMakeMaze,x,y,obj_cardRefresh)
-	instance_destroy(obj_exitdoor)
-	instance_destroy(player)
+	global.hp = hp;
+	instance_destroy(self)
 }

@@ -1,4 +1,4 @@
-	argument0.bullet_num = 0;
+	
 	argument0.monster_atk = 0;
 	argument0.monster_num = 0;
 	argument0.monster_refresh = 0;

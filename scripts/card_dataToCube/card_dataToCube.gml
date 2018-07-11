@@ -1,5 +1,5 @@
 ///@arg obj_cube
-	argument0.bullet_num = self.card.bullet_num;
+	
 	argument0.monster_hp = self.card.monster_hp;
 	argument0.monster_atk = self.card.monster_atk;
 	argument0.monster_num = self.card.monster_num;

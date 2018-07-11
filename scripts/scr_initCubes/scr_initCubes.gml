@@ -3,7 +3,7 @@ for(i = 1;i <= 3;i+=1)
 {
 	for(j = 1;j<=3;j+=1)
 	{
-		var temp = instance_create_layer(26*(j-1) + 136,26*(i-1) + 62,"Instances",obj_cube);
+		var temp = instance_create_layer(24*(j-1) + 136,24*(i-1) + 80,"Instances",obj_cube);
 		temp.num = j + 3*(i-1);
 		temp.a = j - 1;
 		temp.b = i - 1;

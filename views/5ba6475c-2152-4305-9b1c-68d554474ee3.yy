@@ -4,7 +4,6 @@
     "mvc": "1.1",
     "name": "5ba6475c-2152-4305-9b1c-68d554474ee3",
     "children": [
-        "f55837d6-88b6-445d-9e08-53cb01eced37",
         "e7937d0a-856b-4761-b3b9-cdee368406d6"
     ],
     "filterType": "GMObject",

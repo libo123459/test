@@ -1,29 +1,42 @@
 /// @description Insert description here
 // You can write your code in this editor
-spd = 1.5;
+
+spd = 1;
 hspd = 0;
 vspd = 0;
 len = 0;
 dir = 0;
-dash_time = room_speed / 7;
+dash_time = room_speed / 5;
 face = 0
-hp_max = 5;
-energy_remain = 4;
+hp_max = 9;
+
+hp = global.hp+global._hp;
+if(hp >= hp_max)
+{
+	hp = hp_max
+}
+if(global.totalHP-global._hp*4=0)
+{
+	hp -= 1
+	energy_remain = 4;
+} else {
+	energy_remain = global.totalHP-global._hp*4
+}
+
 scr_getinput();
 state = scr_move_state;
 
 bullet_cooldown = room_speed/2;
 bullet_filltime = room_speed;
 
-global.player_hp=3;
-energy = 4;
+//energy = 4;
 
-hp = global.player_hp;
+
 
 alarm[0] = 0;
 alarm[1]=0
 
-display_set_gui_size(160,128);
+//display_set_gui_size(160,128);
 
 arrived_room = 0;
 

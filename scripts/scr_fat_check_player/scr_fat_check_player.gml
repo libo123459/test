@@ -2,13 +2,15 @@ if(instance_exists(player))
 {
 	var dis = point_distance(x,y,player.x,player.y);
 	var xdis = abs(x-player.x)
-	var ydis = abs(y - player.y)
+	var ydis = abs(y-player.y)
 	if(dis < sight)
 	{
-		if(xdis <=20 && ydis <= 2)
+		if(xdis <=24 && ydis <= 4)
 		{
 			state = scr_fat_attack_state;
 			image_index = 1;
+			var _zone = instance_create_layer(x,y-13,"Instances",obj_fat_attack_zone);
+			
 		} else{
 			state = scr_fat_chase_state;
 			if(x > player.x)

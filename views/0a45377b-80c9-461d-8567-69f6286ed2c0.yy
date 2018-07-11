@@ -9,7 +9,9 @@
         "7bbdc032-1faf-45b2-bae2-f44924e5e6b5",
         "f29009f0-3cc9-41f3-9837-c34bad3da2fd",
         "408c34a0-98a3-4f89-a975-fc50d3cbaa36",
-        "66642564-2b2c-4e66-9926-4e66623ec2cf"
+        "66642564-2b2c-4e66-9926-4e66623ec2cf",
+        "d1b36959-4fa8-49e6-aa49-5f97ae8a5292",
+        "b74fdde5-6da5-4a73-80c4-3854cfd269ff"
     ],
     "filterType": "GMSprite",
     "folderName": "wizard",

@@ -3,4 +3,4 @@
 image_speed = 1;
 var flipped = (player.x>x)*2-1;
 image_xscale = flipped;
-screenShake(6,10);
+

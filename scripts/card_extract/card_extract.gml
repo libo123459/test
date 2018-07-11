@@ -10,9 +10,7 @@
 switch(argument0)
 {  
 	case 1:	
-	monster_num = 1;
-	
-	
+	monster_num = 1;	
 	break;
 	
 	case 2:
@@ -23,14 +21,16 @@ switch(argument0)
 	monster_atk = 1;
 	break;
 	
-	case 4:
+	case 5:
 	trap_num = 1;
 	break;
 	
-	case 5:
+	case 4:
 	monster_hp = 1;
 	break;
 	
 	case 6:
 	break;
 }
+
+bullet_num = block_num;
