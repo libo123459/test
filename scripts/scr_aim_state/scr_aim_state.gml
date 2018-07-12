@@ -11,27 +11,23 @@ if(mouse_check_button_released(mb_right))
 	if(dir <= 360 && dir > 290)
 	{
 		sprite_index = spr_charge;
-		flipped_y = 1;
-	
+		flipped_y = 1;	
 	}
 	if(dir <= 70 && dir > 0)
 	{
 		sprite_index = spr_charge_up;
-		flipped_y = -1;
-	
+		flipped_y = -1;	
 	}
 	if(dir <= 110 && dir > 70)
 	{
 		sprite_index = spr_charge_rightup;
 		flipped_y = -1;
-		flipped = 0
-	
+		flipped = 0	
 	}
 	if(dir < 180 && dir > 110)
 	{
 		sprite_index = spr_charge_up;
-		flipped_y = -1;
-		
+		flipped_y = -1;		
 	}
 	if(dir <= 250 && dir >= 180)
 	{

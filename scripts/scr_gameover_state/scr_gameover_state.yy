@@ -1,8 +1,8 @@
 {
-    "id": "735067a3-9ed0-476b-bf25-0766b75b05be",
+    "id": "ba06ffeb-5414-4ea3-bbf3-0f42c0c69a54",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_deat_state",
+    "name": "scr_gameover_state",
     "IsCompatibility": false,
     "IsDnD": false
 }

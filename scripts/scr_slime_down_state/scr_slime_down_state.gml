@@ -12,8 +12,9 @@ if(abs(xoffset)<=2 && abs(yoffset)<=2)
 {
 	
 } else {
-	if(image_index >= 9)
+	if(image_index >= 8)
 	{		
+		instance_create_layer(x,y+12,"Instances",obj_slime_damage)
 		hspeed_ = 0;
 		vspeed_ = 0;
 	}

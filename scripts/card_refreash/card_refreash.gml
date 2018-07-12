@@ -32,6 +32,6 @@ for(i = 1;i<=ds_list_size(global.cardlist);i+=1)
 	{
 		card_extract(type)
 	}	
-	global._cardlist[i-1] = temp;		
+	global._cardlist[i-1] = temp;
 }
 

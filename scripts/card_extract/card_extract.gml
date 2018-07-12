@@ -21,13 +21,15 @@ switch(argument0)
 	monster_atk = 1;
 	break;
 	
+	case 4:
+	monster_hp = 1;
+	break;
+	
 	case 5:
 	trap_num = 1;
 	break;
 	
-	case 4:
-	monster_hp = 1;
-	break;
+	
 	
 	case 6:
 	break;

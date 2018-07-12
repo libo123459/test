@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 event_inherited()
-state = scr_spider_idle_state;
+alarm[11] = room_speed/2
 attacked = false
-alarm[2] = 0;
+state = scr_spider_idle_state;

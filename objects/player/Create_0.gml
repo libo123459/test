@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+knockback = false
+
+kb_x = 0;
+kb_y = 0;
 
 spd = 1;
 hspd = 0;
